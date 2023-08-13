@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Крестики-нолики</title>
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+
+  <h2>Выберите кто ходит первым</h2>
+  <div class="buttons">
+    <button class="firstMoveButton">Игрок 1 ходит первый</button>
+    <button class="secondMoveButton">Игрок 2 ходит первый</button>
+  </div>
+
+  <div id="players">
+    <label for="player1">Игрок 1:</label>
+    <span class="player"></span>
+    <br>
+    <label for="player2">Игрок 2:</label>
+    <span class="player"></span>
+  </div>
+
+  <div id="board">
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+  </div>
+  <button class="resetButton">Начать заново</button>
+  <script src="./src/index.js"></script>
+</body>
+</html>
