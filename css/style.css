@@ -1,16 +1,8 @@
-@font-face {
-  font-family: "RedCollar";
-  src: url(../fonts/Redcollar.woff2);
-}
-
-h1 {
-  text-align: center;
-  color: #ffffff;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 
 body {
-  font-family: "RedCollar";
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -20,8 +12,10 @@ body {
   margin: 0;
 }
 
-.wrapper {
-  max-width: 1600px;
+h2 {
+  text-align: center;
+  color: #000000;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 #players {
@@ -74,7 +68,7 @@ body {
 
 button {
   display: block;
-  font-family: "RedCollar";
+  font-weight: 700;
   margin: 20px auto;
   padding: 10px 20px;
   background-color: #4d4d4d;
